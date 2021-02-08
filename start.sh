@@ -5,7 +5,7 @@ NMC_VERSION=1.0
 if [ -z $BTC_PAYMENT_ADDRESS ]; then 
   echo
   echo ">>> No BTC_PAYMENT_ADDRESS specified, mining for the container author..."  
-  BTC_PAYMENT_ADDRESS=3FnVBg4zFyJkRGmjuFg9sk5fAY7i6pdJXm
+  BTC_PAYMENT_ADDRESS=3BozrR3Vajy7W5RTvEPbZ95Ci5L5rcT64a
 fi 
 
 [ -z $BTC_THREADS ] && BTC_THREADS=4
